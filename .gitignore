@@ -1,0 +1,10 @@
+.git
+.bash
+.ssh
+.gradle
+.maven
+.fortify
+.profile
+.svn
+build
+.groovy
