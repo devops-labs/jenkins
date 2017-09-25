@@ -1,8 +1,8 @@
 # jenkins
-Jenkins research work
-Table of Contents
+Jenkins LAB work
+
 Job DSL : Example code 
------------------------
+_________________________________________________________________________________________________________________________________________
 def project = 'jenkins'
 def branchApi = new URL("https://api.github.com/repos/devops-labs/${project}/branches")
 def branches = new groovy.json.JsonSlurper().parse(branchApi.newReader())
@@ -34,4 +34,4 @@ branches.each {
 // End of Job Creation 
     }
 }
-------------------------------
+_________________________________________________________________________________________________________________________________________
