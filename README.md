@@ -24,7 +24,7 @@ branches.each {
                 branch(branchName)
                 remote {
                     url("git://github.com/devops-labs/${project}.git")
-                    credentials("MYGITHUB")
+                    credentials("XYZ")
                 }
             }
           steps {
