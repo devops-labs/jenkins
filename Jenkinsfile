@@ -1,4 +1,4 @@
-hello {
+node {
 	hello "Sam"
 	hello("John")
 }
