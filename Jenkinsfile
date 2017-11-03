@@ -1,14 +1,10 @@
 node {
    stage 'test'
-   def whatThe = someFunc('textToFunc')
-   def whatThe2 = someFunc2('textToFunc2')
+   helloWorld "Joe"
+   helloWorld("Joe")
 }
 
-def someFunc(String text){
-    echo text
-    text
-}
-def someFunc2(String text2){
-    echo text2
-    text2
+def call(name) {
+    // you can call any valid step functions from your code, just like you can from Pipeline scripts
+    echo "Hello world, ${name}"
 }
