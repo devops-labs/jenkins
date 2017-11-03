@@ -1,5 +1,6 @@
 node {
- stage 'test'
+ stage 'test'{
 	hello "Sam"
 	hello("John")
+}
 }
