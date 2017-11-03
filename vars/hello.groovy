@@ -1,3 +1,3 @@
 def call(name){
-	eccho "Hello world, ${name}"
+	echo "Hello world, ${name}"
 }
