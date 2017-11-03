@@ -1,2 +1,4 @@
-hello "Sam"
-hello("John")
+hello {
+	hello "Sam"
+	hello("John")
+}
