@@ -1,6 +1,2 @@
-node {
- stage 'test'{
-	hello "Sam"
-	hello("John")
-}
-}
+hello "Sam"
+hello("John")
